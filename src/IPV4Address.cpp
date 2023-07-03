@@ -1,6 +1,5 @@
 #include <IPV4Address.hpp>
 
-
 namespace std {
   string to_string(Networking::IPV4Address address) {
     return address.addr_str + ":" + to_string(address._port);

@@ -1,5 +1,9 @@
 #include <string>
 
+namespace Networking {
+  class IPV4Address;
+}
+
 namespace std {
   string to_string(Networking::IPV4Address address);
 }
